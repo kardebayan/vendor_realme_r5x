@@ -368,9 +368,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19631/nt_hlt_fw_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw_mp.bin \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19631/nt_hlt_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19631/nt_hlt_fw_signed.bin \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/RA170A1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170A1.bin \
-    vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/RA170A1.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170A1.conf \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/RA170X1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170X1.bin \
-    vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/RA170X1.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/RA170X1.conf \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/ilitek_fw_inx_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/ilitek_fw_inx_signed.bin \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/ilitek_fw_xlgg3_signed.bin \
     vendor/realme/r5x/proprietary/vendor/firmware/tp/19743/nt_hlt_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/19743/nt_hlt_fw.bin \
@@ -2174,7 +2172,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/r5x/proprietary/vendor/lib/libswresample.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswresample.so \
     vendor/realme/r5x/proprietary/vendor/lib/libswscale.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswscale.so \
     vendor/realme/r5x/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
-    vendor/realme/r5x/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/realme/r5x/proprietary/vendor/lib/libsymphony-cpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphony-cpu.so \
     vendor/realme/r5x/proprietary/vendor/lib/libsymphonypower.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsymphonypower.so \
     vendor/realme/r5x/proprietary/vendor/lib/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynergy_loc_api.so \
@@ -2588,9 +2585,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libantradio \
     libMpeg4SwEncoder \
+    SoterService \
     CACertService \
     CneApp \
-    SoterService \
     TimeService \
     PowerOffAlarm \
     QtiTelephonyService \
